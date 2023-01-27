@@ -1,0 +1,134 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+
+h2{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 25px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+
+.div1{
+    width: 250px;
+    background-color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    padding: 45px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.div2{
+    width: 250px;
+    background-color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    padding: 45px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    
+}
+
+.div3{
+    width: 250px;
+    background-color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    padding: 45px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.button1{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    color: hsl(31, 77%, 52%);
+    width: 120px;
+    margin-top: 75px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+
+.button2{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    color: hsl(184, 100%, 22%);
+    width: 120px;
+    margin-top: 75px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+
+.button3{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    color: hsl(179, 100%, 13%);
+    width: 120px;
+    margin-top: 75px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+    .div1{
+        padding: 30px;
+    }
+
+    .div2{
+        padding: 30px;
+    }
+
+    .div3{
+        padding: 30px;
+    }
+
+    
+}
+
+@media screen and (max-width: 650px){
+    body{
+        background-color: cyan;
+    }
+
+    .container{
+        flex-direction: column;
+        margin-top: 0px;
+        transform: translateY(0%);
+        margin-left: 0px;
+    }
+
+    .div1{
+        width: 90%;
+        border-radius: 0px;
+        
+    }
+
+    .div2{
+        width: 90%;
+    }
+
+    .div3{
+        width: 90%;
+    }
+
+    
+}
